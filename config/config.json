@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "burgers_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "socketPath": "/var/run/mysqld/mysqld.sock",
+    "port": 8889
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "socketPath": "/var/run/mysqld/mysqld.sock"
+  },
+  "production": {
+  	"use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}
